@@ -1,0 +1,23 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@nuxt/devtools": "latest",
+    "@nuxtjs/tailwindcss": "^6.8.0",
+    "@types/node": "^18.17.0",
+    "nuxt": "^3.6.5",
+    "nuxt-quasar-ui": "^2.0.4"
+  },
+  "dependencies": {
+    "@microsoft/signalr": "^7.0.9",
+    "@quasar/extras": "^1.16.5",
+    "quasar": "^2.12.3"
+  }
+}
